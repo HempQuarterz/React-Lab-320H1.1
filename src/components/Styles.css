@@ -1,0 +1,110 @@
+.employee-list {
+  display: flex-box;
+  justify-content: space-between;
+  border: 3px solid purple;
+  height: 85%;
+}
+
+.employee-info h2 {
+  margin-top: 0;
+}
+
+.employee-info p {
+  margin-bottom: 5px;
+}
+
+.table {
+  display: flex;
+}
+
+.employee-page{
+  border: 3px solid grey;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  height: 100%;
+
+}
+
+.employee-page img {
+  margin-top: 20px;
+  align-self: flex-start;
+  margin-right: 10px;
+}
+
+.employee-info2 {
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+
+
+.employee-info3 p  {
+  border: 3px solid grey;
+  padding: 20px;
+  cursor: pointer;  
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.mainPage {
+  border: 5px solid black;
+  height: 100vh;
+  margin: 10px;
+  display: flex;
+}
+
+.homePage {
+  border: solid 5px orange;
+  flex: 1;
+  height: 99%;
+}
+
+.listedEmployee {
+  padding: 11px;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+
+.listedEmployee img {
+  margin-right: 10px;
+}
+
+.listedEmployee .employee-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+.employee-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.employee-name {
+  margin: 0;
+}
+
+.employee-title {
+  margin: 0;
+}
+
+
+
+.searchBar {
+width: 200px
+}
+
+.header {
+  border: 5px solid blue;
+  text-align: center;
+  height: 70px;
+}
